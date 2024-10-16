@@ -1,0 +1,104 @@
+/* tableStyles.css */
+
+.user-cell {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Optional: Add some padding or spacing to make the table layout more visually appealing */
+.MuiTableCell-root {
+  padding: 16px;
+}
+
+.MuiTableHead-root {
+  background-color: #f5f5f5;
+}
+
+.MuiTypography-root {
+  font-size: 14px;
+}
+
+.MuiIconButton-root {
+  padding: 4px;
+}
+
+
+.custom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f7f9fc;
+    border-radius: 8px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 15px;
+    color: #333;
+  }
+  
+  .icon-button:hover {
+    color: #000;
+  }
+  
+  .plus-icon,
+  .menu-icon,
+  .sort-icon {
+    font-weight: bold;
+  }
+  
+  /* Search box */
+  .search-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #f7f9fc;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 2px;
+    width: 250px;
+  }
+  
+  .search-input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .search-input::placeholder {
+    color: #999;
+    font-size: large;
+  }
+  
+  .search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #666;
+    padding: 8px;
+  }
+  
+  .search-button:hover {
+    color: #333;
+  }
+  
