@@ -25,7 +25,7 @@ To get started with the project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/admin-panel-react.git
+   git clone https://github.com/Bhardwaj1/admin-panel-react.git
    cd admin-panel-react
    ```
 
